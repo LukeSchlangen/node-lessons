@@ -1,0 +1,9 @@
+<h2>Welcome to quote heaven!</h2>
+
+<blockquote>
+  You're gonna' like it here.
+</blockquote>
+<p>Who would you like a quote from?</p>
+<% for(var quote in quotes) { %>
+    <li><a href='quotes/<%= quote %>'><%= quote %></a></li>
+<% }; %>

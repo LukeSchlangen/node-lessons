@@ -1,0 +1,27 @@
+{
+  "name": "node-lessons",
+  "version": "1.0.0",
+  "description": "Simple node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeSchlangen/node-lessons.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Luke Schlangen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeSchlangen/node-lessons/issues"
+  },
+  "homepage": "https://github.com/LukeSchlangen/node-lessons#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "ejs": "^2.5.2"
+  }
+}
